@@ -7,26 +7,39 @@
   src="http://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-<header> Premier League Championships </header>
+<header> Premier League Goal Match </header>
 
-<p> You will be given a random number that reflects the number of championships won by a team to start the game.</p>
+<p> You will be given a random number that reflects the number of goals scored by a team to start the game.</p>
 
-<p> There will be four Premier League teams below, by clicking on a team you will add a spicific amount of points to your ...</p>
-<h2>goalNumber</h2>
+<p> There will be four Premier League teams below, by clicking on a team you will add a spicific amount of goals to your tally to match the amount of games won that season.</p>
+
+<p> You win by matching the goal number amount, you lose if your tally surpases the goal number. When you click on a team logo it will have an unkown number attatched to it, tally up your goals to match the goal number and win.</p>
+
+<p> </p>
+<h2>GoalNumber</h2>
 <div id="goal"></div>
-<h2>tally</h2>
+<h2>Tally</h2>
 <div id="tally">0</div>
 
 <div>
-	<div class="teams" id="arsenal">Arsenal</div>
-	<div class="teams" id="chelsea">Chelsea</div>
-	<div class="teams" id="liverpool">Liverpool</div>
-	<div class="teams" id="manU">Manchester United</div>
+	<div class="teams" id="arsenal">
+		<img src="./assets/images/arsenal.svg" alt="Arsenal Logo">
+	</div>
+	<div class="teams" id="chelsea">
+		<img src="./assets/images/chelsea.svg" alt="Chelsea Logo">
+	</div>
+	<div class="teams" id="liverpool">
+		<img src="./assets/images/liverpool.svg" alt="Liverpool Logo">
+	</div>
+	<div class="teams" id="manU">
+		<img src="./assets/images/manchesterunited.svg" alt=" Manchester United Logo">
+	</div>
 
 </div>
 <div>
