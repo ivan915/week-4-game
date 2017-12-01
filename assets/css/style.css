@@ -25,6 +25,7 @@ h2 {
 	font-size: 50px;
 	text-overflow: center;
 	color: #FF0053;
+	font-family: 'Monoton', cursive;
 
 }
 body {
@@ -42,5 +43,6 @@ header {
 	color: #FF0053;
 	font-size: 65px;
 	text-align: center;
+	font-family: 'Bungee Inline', cursive;
 
 }
